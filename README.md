@@ -19,3 +19,14 @@ repositorio.ufms.br
 **Opinião pessoal**: Consideramos que o potencial da tecnologia blockchain é inegável, especialmente na promoção de segurança e descentralização em diversas áreas. No entanto, acredito que sua aplicação ainda enfrenta desafios significativos, como a alta demanda de energia e a falta de regulamentação clara. Para que a blockchain se torne amplamente adotada, será necessário um equilíbrio entre inovação tecnológica e sustentabilidade, além de maior conscientização e incentivo para pesquisas locais, especialmente em países como o Brasil.
 
 **Conclusão**: A tecnologia blockchain apresenta um vasto potencial para transformar setores como finanças, segurança e gestão de dados, oferecendo soluções descentralizadas e seguras. No entanto, apesar de suas promissoras aplicações, ainda enfrenta desafios como a escalabilidade, o consumo energético e questões regulatórias. O artigo destaca a relevância da blockchain em várias indústrias, mas ressalta a carência de estudos acadêmicos no Brasil. Para maximizar os benefícios dessa tecnologia, é fundamental aprofundar a pesquisa e explorar formas de superar suas limitações, garantindo uma adoção mais ampla e sustentável no futuro.
+
+## TÍTULO: Como Funciona o Blockchain
+
+O Blockchain é uma tecnologia de registro descentralizado que permite armazenar dados de forma segura, transparente e imutável. Ele é frequentemente associado a criptomoedas, como o Bitcoin, mas tem muitos outros usos possíveis, como em contratos inteligentes, sistemas de votação e rastreamento de cadeias de suprimentos.
+
+**Estrutura de Blocos** O blockchain é composto por uma cadeia de blocos. Cada "bloco" contém um conjunto de transações ou registros e é vinculado ao bloco anterior. Os blocos formam uma sequência cronológica, e cada novo bloco é adicionado à cadeia.
+
+Bloco: Cada bloco contém:
+Transações: Dados que registram uma ação, como uma transferência de criptomoeda.
+Hash do bloco: Um código único gerado pelo algoritmo criptográfico que representa de forma compacta o conteúdo do bloco.
+Hash do bloco anterior: Esse hash vincula o novo bloco ao bloco anterior, formando a "cadeia" e tornando impossível modificar os dados sem alterar todos os blocos subsequentes.
