@@ -30,3 +30,36 @@ Bloco: Cada bloco contém:
 Transações: Dados que registram uma ação, como uma transferência de criptomoeda.
 Hash do bloco: Um código único gerado pelo algoritmo criptográfico que representa de forma compacta o conteúdo do bloco.
 Hash do bloco anterior: Esse hash vincula o novo bloco ao bloco anterior, formando a "cadeia" e tornando impossível modificar os dados sem alterar todos os blocos subsequentes.
+
+## TÍTULO: Descentralização
+O blockchain não depende de uma única entidade para validar ou armazenar os dados. Em vez disso, ele é mantido por uma rede distribuída de nós (computadores ou participantes). Cada nó tem uma cópia do blockchain inteiro.
+
+Quando uma nova transação é feita, ela é transmitida para a rede e cada nó a valida.
+O processo de validação pode variar dependendo do tipo de blockchain, mas geralmente envolve algum mecanismo de consenso para garantir que todos os participantes da rede concordem sobre o que deve ser adicionado à cadeia.
+
+## TÍTULO: Criptografia e Segurança
+A segurança do blockchain é garantida principalmente através de técnicas de criptografia. Cada bloco tem um hash único, e qualquer alteração nos dados do bloco alteraria esse hash. Como o hash do bloco anterior também está presente no novo bloco, qualquer tentativa de manipulação retroativa exigiria recalcular os hashes de todos os blocos subsequentes, o que é praticamente impossível em grandes redes.
+
+Além disso, as transações no blockchain são assinadas digitalmente, o que garante a autenticidade e a identidade das partes envolvidas.
+
+## TÍTULO: Mecanismos de Consenso
+Para adicionar um novo bloco ao blockchain, é necessário que a rede entre em consenso. O mecanismo de consenso garante que todos os participantes concordem sobre a validade das transações e a ordem dos blocos.
+
+Existem diferentes tipos de mecanismos de consenso, sendo os mais comuns:
+
+Proof of Work (PoW): Usado no Bitcoin. Os mineradores competem para resolver um problema matemático complexo, e o primeiro a resolver ganha o direito de adicionar um novo bloco à cadeia.
+Proof of Stake (PoS): Usado em redes como o Ethereum após a transição para o Ethereum 2.0. Os validadores são escolhidos para criar blocos com base na quantidade de criptomoeda que eles "travam" (stake) na rede.
+
+## TÍTULO: Imutabilidade
+Uma das características mais importantes do blockchain é a imutabilidade. Uma vez que um bloco é adicionado à cadeia, ele não pode ser alterado sem alterar todos os blocos subsequentes. Isso faz com que seja extremamente difícil, senão impossível, falsificar ou modificar informações no blockchain.
+
+## TÍTULO: Transparência
+Apesar de ser seguro e imutável, o blockchain oferece transparência. Todos os registros são visíveis para os participantes da rede, o que permite a auditoria e o rastreamento de transações.
+
+## TÍTULO: Aplicações do Blockchain
+Embora a criptomoeda seja o uso mais popular, o blockchain tem muitos outros potenciais:
+
+Contratos Inteligentes: Programas autossuficientes que executam automaticamente acordos quando determinadas condições são atendidas.
+Rastreamento de Cadeias de Suprimentos: Permite monitorar a origem e o trajeto de produtos, garantindo a autenticidade e a rastreabilidade.
+Votação Eletrônica: Pode ser usado para criar sistemas de votação mais seguros e transparentes.
+Identidade Digital: Pode fornecer um meio seguro e imutável para gerenciar identidades online.
