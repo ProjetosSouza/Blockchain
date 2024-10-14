@@ -1,14 +1,21 @@
 # Trabalho sobre Blockchain - Aula de Segurança da Informação - Prof. Bruno Zolotareff
-## Aplicação em Blockchain
 
-O código em Python implementa uma estrutura básica de uma Blockchain. Cada bloco contém um índice, timestamp, transações, prova de trabalho e o hash do bloco anterior. A função `new_block` adiciona um novo bloco à cadeia.
+## Artigo Científico
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0258995
 
-# Membros do Grupo
+## Membros do Grupo
+- Brian - https://www.linkedin.com/in/brian-santos-498112326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+- Laysa - https://www.linkedin.com/in/cain%C3%A3-pessoa-alvarenga-82867032b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app 
+- Yasmin - https://www.linkedin.com/in/yasmin-de-paula-1887ba278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app 
+
+## Professor
+- Prof.Bruno Zolotareff dos Santos
+
 Brian - https://www.linkedin.com/in/brian-santos-498112326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app  
 Laysa - https://www.linkedin.com/in/cain%C3%A3-pessoa-alvarenga-82867032b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app 
-Yasmin -https://www.linkedin.com/in/yasmin-de-paula-1887ba278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app 
+Yasmin - https://www.linkedin.com/in/yasmin-de-paula-1887ba278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app 
 
-# TÍTULO: BlOCKCHAIN: Conceitos e aplicações
+## TÍTULO: BlOCKCHAIN: Conceitos e aplicações
 ANO DE PUBLICAÇÃO: 2022
 PUBLICAÇÃO: repositorio.ufms.br 
 RESUMO: O artigo aborda o conceito e as diversas aplicações da tecnologia de blockchain, originalmente desenvolvida em 2008 por Satoshi Nakamoto. Inicialmente aplicada em transações financeiras com criptomoedas, a blockchain expandiu seu uso para áreas como finanças descentralizadas (DeFi), contratos inteligentes (smart contracts), Internet das Coisas (IoT), computação em nuvem (Cloud Computing) e tokens não-fungíveis (NFTs). A tecnologia funciona através de uma rede descentralizada e segura que permite o armazenamento e a troca de dados sem a necessidade de um intermediário. O estudo faz uma revisão da literatura acadêmica sobre blockchain, destacando a produção internacional e a carência de pesquisas no Brasil. A análise demonstra o crescente interesse acadêmico, embora ainda seja limitado em algumas áreas emergentes como DeFi e NFTs. Em conclusão, o artigo destaca o potencial transformador da blockchain em diversas indústrias e a necessidade de mais estudos para explorar suas capacidades. 
