@@ -1,0 +1,26 @@
+Índice: 0
+Data: 2024-10-14 14:00:00
+Dados: Bloco Gênese
+Hash: 6c73a7c2d59f71c907a0a93b81f5e47b2fe6898ed21c02e18a2ad1b650b2b8ee
+Hash Anterior: 0
+--------------------------------------------------
+Índice: 1
+Data: 2024-10-14 14:01:00
+Dados: Transação 1: João pagou 10 BTC para Maria
+Hash: 49d14a1b9e9f7b7d2a07f03f8a7956d832a0db8d17e09a1b5e9b2a94a2e50ab7
+Hash Anterior: 6c73a7c2d59f71c907a0a93b81f5e47b2fe6898ed21c02e18a2ad1b650b2b8ee
+--------------------------------------------------
+Índice: 2
+Data: 2024-10-14 14:02:00
+Dados: Transação 2: Maria pagou 5 BTC para Pedro
+Hash: 22c731244f9f7f4b95f23194f3a5169e45950ba7e92cd544b6a618b0365b7e5
+Hash Anterior: 49d14a1b9e9f7b7d2a07f03f8a7956d832a0db8d17e09a1b5e9b2a94a2e50ab7
+--------------------------------------------------
+Índice: 3
+Data: 2024-10-14 14:03:00
+Dados: Transação 3: Pedro pagou 3 BTC para Lucas
+Hash: 50f07ad6ac9d6d29bc8b7b5e6b3b6f04be3e0320f8294361290d9de235aa1a97
+Hash Anterior: 22c731244f9f7f4b95f23194f3a5169e45950ba7e92cd544b6a618b0365b7e5
+--------------------------------------------------
+
+A cadeia é válida!

@@ -1,0 +1,85 @@
+ import hashlib
+import time
+import json
+
+# Definindo o Bloco
+class Bloco:
+    def __init__(self, índice, data, hash_anterior, timestamp=None):
+        self.índice = índice
+        self.timestamp = timestamp or time.time()
+        self.data = data
+        self.hash_anterior = hash_anterior
+        self.hash = self.calcular_hash()
+
+    def calcular_hash(self):
+        # Calcula o hash do bloco
+        valor_bloco = str(self.índice) + str(self.timestamp) + str(self.data) + str(self.hash_anterior)
+        return hashlib.sha256(valor_bloco.encode('utf-8')).hexdigest()
+
+# Blockchain
+class Blockchain:
+    def __init__(self):
+        self.cadeia = []
+        self.criar_bloco_inicial()
+
+    def criar_bloco_inicial(self):
+        # Cria o primeiro bloco (bloco gênese)
+        bloco_inicial = Bloco(índice=0, data="Bloco Gênese", hash_anterior="0")
+        self.cadeia.append(bloco_inicial)
+
+    def adicionar_bloco(self, data):
+        # Adiciona um novo bloco à cadeia
+        último_bloco = self.cadeia[-1]
+        novo_bloco = Bloco(
+            índice=último_bloco.índice + 1,
+            data=data,
+            hash_anterior=último_bloco.hash
+        )
+        self.cadeia.append(novo_bloco)
+
+    def validar_cadeia(self):
+        # Valida a integridade da cadeia de blocos
+        for i in range(1, len(self.cadeia)):
+            bloco_atual = self.cadeia[i]
+            bloco_anterior = self.cadeia[i - 1]
+
+            # Verifica se o hash do bloco atual é válido
+            if bloco_atual.hash != bloco_atual.calcular_hash():
+                print(f"Erro: O hash do bloco {bloco_atual.índice} foi alterado.")
+                return False
+
+            # Verifica se o hash anterior está correto
+            if bloco_atual.hash_anterior != bloco_anterior.hash:
+                print(f"Erro: O hash anterior do bloco {bloco_atual.índice} está incorreto.")
+                return False
+
+        return True
+
+    def mostrar_cadeia(self):
+        # Exibe os blocos da cadeia
+        for bloco in self.cadeia:
+            print(f"Índice: {bloco.índice}")
+            print(f"Data: {time.strftime('%Y-%m-%d %H:%M:%S', time.gmtime(bloco.timestamp))}")
+            print(f"Dados: {bloco.data}")
+            print(f"Hash: {bloco.hash}")
+            print(f"Hash Anterior: {bloco.hash_anterior}")
+            print("-" * 50)
+
+# Teste do Blockchain
+if __name__ == "__main__":
+    # Criando um novo blockchain
+    blockchain = Blockchain()
+
+    # Adicionando blocos à cadeia
+    blockchain.adicionar_bloco("Transação 1: João pagou 10 BTC para Maria")
+    blockchain.adicionar_bloco("Transação 2: Maria pagou 5 BTC para Pedro")
+    blockchain.adicionar_bloco("Transação 3: Pedro pagou 3 BTC para Lucas")
+
+    # Mostrando a cadeia de blocos
+    blockchain.mostrar_cadeia()
+
+    # Validando a cadeia
+    if blockchain.validar_cadeia():
+        print("\nA cadeia é válida!")
+    else:
+        print("\nA cadeia foi corrompida!")
